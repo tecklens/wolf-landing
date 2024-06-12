@@ -1,10 +1,10 @@
 {
-  "name": "shadcn-landing-page-template",
-  "description": "Landing page template utilizing Shadcn, React, Typescript, and Tailwind CSS for rapid development and responsive design.",
+  "name": "wolf-landing-page",
+  "description": "Notifications infrastructure for developers.",
   "author": {
-    "name": "Leopoldo Miranda",
-    "email": "leomirandadev@gmail.com",
-    "url": "https://github.com/leoMirandaa"
+    "name": "Tecklens",
+    "email": "diep.tv1999@gmail.com",
+    "url": "https://github.com/dieptv1999"
   },
   "license": "MIT",
   "keywords": [
