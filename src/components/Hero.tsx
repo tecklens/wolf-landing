@@ -20,8 +20,7 @@ export const Hero = () => {
             <span
                 className="inline bg-gradient-to-r from-[#61DAFB] via-[#1fc0f1] to-[#03a3d7] text-transparent bg-clip-text">
               Minimal effort
-            </span>{" "}
-                        required for your product{" "}
+            </span>
                     </h2>
                 </main>
 
@@ -31,7 +30,9 @@ export const Hero = () => {
                 </p>
 
                 <div className="space-y-4 md:space-y-0 md:space-x-4">
-                    <Button className="w-full md:w-1/3">Get Started</Button>
+                    <a rel="noreferrer noopener" href={'https://dash.wolfx.app'} target={'_blank'}>
+                        <Button className="w-full md:w-1/3">Get Started</Button>
+                    </a>
 
                     <a
                         rel="noreferrer noopener"

@@ -5,7 +5,7 @@ export const LogoIcon = () => {
   return (
       <img
           src={`/logo_${theme}_2.png`}
-          className="relative m-auto"
+          className="relative mr-1.5"
           width={30}
           height={30}
           alt="Vite"

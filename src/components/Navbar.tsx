@@ -21,6 +21,7 @@ import { LogoIcon } from "./Icons";
 interface RouteProps {
   href: string;
   label: string;
+  target?: string;
 }
 
 const routeList: RouteProps[] = [
@@ -29,8 +30,9 @@ const routeList: RouteProps[] = [
     label: "Features",
   },
   {
-    href: "#testimonials",
-    label: "Testimonials",
+    href: "https://docs.wolfx.app",
+    label: "Docs",
+    target: '_blank',
   },
   {
     href: "#pricing",
@@ -76,6 +78,7 @@ export const Navbar = () => {
                 </Menu>
               </SheetTrigger>
 
+              {/*@ts-ignore*/}
               <SheetContent side={"left"}>
                 <SheetHeader>
                   <SheetTitle className="font-bold text-xl">
@@ -83,12 +86,13 @@ export const Navbar = () => {
                   </SheetTitle>
                 </SheetHeader>
                 <nav className="flex flex-col justify-center items-center gap-2 mt-4">
-                  {routeList.map(({ href, label }: RouteProps) => (
+                  {routeList.map(({ href, label, target }: RouteProps) => (
                     <a
                       rel="noreferrer noopener"
                       key={label}
                       href={href}
                       onClick={() => setIsOpen(false)}
+                      target={target ? target : '_self'}
                       className={buttonVariants({ variant: "ghost" })}
                     >
                       {label}
@@ -117,6 +121,7 @@ export const Navbar = () => {
                 rel="noreferrer noopener"
                 href={route.href}
                 key={i}
+                target={route.target ? route.target : '_self'}
                 className={`text-[17px] ${buttonVariants({
                   variant: "ghost",
                 })}`}

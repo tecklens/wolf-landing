@@ -13,7 +13,7 @@ export const Footer = () => {
             className="font-bold text-xl flex"
           >
             <LogoIcon />
-            Wolf Notification
+            <div>Wolf Notification</div>
           </a>
         </div>
 

@@ -48,8 +48,8 @@ const pricingList: PricingProps[] = [
       "Lorem ipsum dolor sit, amet ipsum consectetur adipisicing elit.",
     buttonText: "Start Free Trial",
     benefitList: [
-      "4 Team member",
-      "4 GB Storage",
+      "Unlimited Team member",
+      "No credit card required.",
       "Upto 6 pages",
       "Priority support",
       "lorem ipsum dolor",
