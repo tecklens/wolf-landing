@@ -22,18 +22,18 @@ export const HeroCards = () => {
                     <Avatar>
                         <AvatarImage
                             alt=""
-                            src="https://github.com/shadcn.png"
+                            src="https://pbs.twimg.com/profile_images/1756191369121714176/uUSYjjDW_400x400.jpg"
                         />
-                        <AvatarFallback>SH</AvatarFallback>
+                        <AvatarFallback>RY</AvatarFallback>
                     </Avatar>
 
                     <div className="flex flex-col">
-                        <CardTitle className="text-lg">John Doe React</CardTitle>
-                        <CardDescription>@john_doe</CardDescription>
+                        <CardTitle className="text-lg">Ryan</CardTitle>
+                        <CardDescription>@ryan</CardDescription>
                     </div>
                 </CardHeader>
 
-                <CardContent>This landing page is awesome!</CardContent>
+                <CardContent>It helps me save a lot of time!</CardContent>
             </Card>
 
             {/* Team */}
@@ -41,20 +41,19 @@ export const HeroCards = () => {
                 className="absolute right-[20px] top-4 w-80 flex flex-col justify-center items-center drop-shadow-xl shadow-black/10 dark:shadow-white/10">
                 <CardHeader className="mt-8 flex justify-center items-center pb-2">
                     <img
-                        src="https://i.pravatar.cc/150?img=58"
+                        src="https://pbs.twimg.com/profile_images/1793222782828105729/VGSKNX5h_200x200.jpg"
                         alt="user avatar"
                         className="absolute grayscale-[0%] -top-12 rounded-full w-24 h-24 aspect-square object-cover"
                     />
-                    <CardTitle className="text-center">Leo Miranda</CardTitle>
+                    <CardTitle className="text-center">Wolf Dream</CardTitle>
                     <CardDescription className="font-normal text-primary">
-                        Frontend Developer
+                        Product Owner
                     </CardDescription>
                 </CardHeader>
 
                 <CardContent className="text-center pb-2">
                     <p>
-                        I really enjoy transforming ideas into functional software that
-                        exceeds expectations
+                        A flexible and reliable notification infrastructure built to suit you.
                     </p>
                 </CardContent>
 
@@ -62,7 +61,7 @@ export const HeroCards = () => {
                     <div>
                         <a
                             rel="noreferrer noopener"
-                            href="https://github.com/leoMirandaa"
+                            href="https://github.com/dieptv1999"
                             target="_blank"
                             className={buttonVariants({
                                 variant: "ghost",
@@ -74,7 +73,7 @@ export const HeroCards = () => {
                         </a>
                         <a
                             rel="noreferrer noopener"
-                            href="https://twitter.com/leo_mirand4"
+                            href="https://x.com/techlensglobal"
                             target="_blank"
                             className={buttonVariants({
                                 variant: "ghost",
@@ -96,7 +95,7 @@ export const HeroCards = () => {
 
                         <a
                             rel="noreferrer noopener"
-                            href="https://www.linkedin.com/"
+                            href="https://linkedin.com/in/techlens/"
                             target="_blank"
                             className={buttonVariants({
                                 variant: "ghost",
@@ -170,10 +169,9 @@ export const HeroCards = () => {
                         <LightBulbIcon/>
                     </div>
                     <div>
-                        <CardTitle>Light & dark mode</CardTitle>
+                        <CardTitle>Random email</CardTitle>
                         <CardDescription className="text-md mt-2">
-                            Lorem ipsum dolor sit amet consect adipisicing elit. Consectetur
-                            natusm.
+                            The Unveiled Magic of Disposable Email Addresses and Temporary Email.
                         </CardDescription>
                     </div>
                 </CardHeader>
