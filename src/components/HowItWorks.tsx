@@ -28,9 +28,9 @@ const features: FeatureProps[] = [
   },
   {
     icon: <GiftIcon />,
-    title: "Gamification",
+    title: "Availability",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas provident cum",
+      "We ensure the system's readiness 24/24, ensuring your notifications are never interrupted.",
   },
 ];
 

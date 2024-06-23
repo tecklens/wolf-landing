@@ -35,7 +35,7 @@ const routeList: RouteProps[] = [
     target: '_blank',
   },
   {
-    href: "#pricing",
+    href: "/pricing",
     label: "Pricing",
   },
   {
@@ -78,7 +78,6 @@ export const Navbar = () => {
                 </Menu>
               </SheetTrigger>
 
-              {/*@ts-ignore*/}
               <SheetContent side={"left"}>
                 <SheetHeader>
                   <SheetTitle className="font-bold text-xl">
@@ -133,16 +132,24 @@ export const Navbar = () => {
 
           <div className="hidden md:flex gap-2">
             <a
-              rel="noreferrer noopener"
-              href="https://github.com/tecklens"
-              target="_blank"
-              className={`border ${buttonVariants({ variant: "secondary" })}`}
+                rel="noreferrer noopener"
+                href="https://dash.wolfx.app"
+                target="_blank"
+                className={`border ${buttonVariants({variant: "default"})}`}
             >
-              <GitHubLogoIcon className="mr-2 w-5 h-5" />
+              Get Started
+            </a>
+            <a
+                rel="noreferrer noopener"
+                href="https://github.com/tecklens"
+                target="_blank"
+                className={`border ${buttonVariants({variant: "secondary"})}`}
+            >
+              <GitHubLogoIcon className="mr-2 w-5 h-5"/>
               Github
             </a>
 
-            <ModeToggle />
+            <ModeToggle/>
           </div>
         </NavigationMenuList>
       </NavigationMenu>

@@ -14,6 +14,7 @@ interface TeamProps {
   name: string;
   position: string;
   socialNetworks: SociaNetworkslProps[];
+  quote?: string;
 }
 
 interface SociaNetworkslProps {
@@ -37,6 +38,7 @@ const teamList: TeamProps[] = [
         url: "https://www.instagram.com/_dieptv/",
       },
     ],
+    quote: 'I am a slow walker, but I never walk back.'
   },
   {
     imageUrl: "https://pbs.twimg.com/profile_images/1507634718040227847/8rSr6NUA_200x200.jpg",
@@ -98,7 +100,7 @@ export const Team = () => {
 
       <div className="grid md:grid-cols-1 lg:grid-cols-3 gap-8 gap-y-10">
         {teamList.map(
-          ({ imageUrl, name, position, socialNetworks }: TeamProps) => (
+          ({ imageUrl, name, position, socialNetworks, quote = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.' }: TeamProps) => (
             <Card
               key={name}
               className="bg-muted/50 relative mt-8 flex flex-col justify-center items-center"
@@ -116,7 +118,7 @@ export const Team = () => {
               </CardHeader>
 
               <CardContent className="text-center pb-2">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <p>{quote}</p>
               </CardContent>
 
               <CardFooter>

@@ -1,0 +1,7 @@
+/*.container {*/
+/*    background-image: radial-gradient(circle at center, rgb(220, 252, 231) 0, rgba(220, 252, 231, 0.4), white 100%);*/
+/*}*/
+
+.shad {
+    box-shadow: rgba(50, 50, 93, 0.25) 0 13px 27px -5px, rgba(0, 0, 0, 0.3) 0 8px 16px -8px;
+}
